@@ -1,0 +1,42 @@
+body {
+    background-image: url("../../Images/quizApp-question.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center !important;
+    margin-top: 10% !important;
+    color: #ffffff !important;
+}
+
+.btn-outline-light {
+    color: #ffffff !important;
+}
+
+.btn-outline-light:hover {
+    color: #000000 !important;
+}
+
+.madeBy {
+    float: right;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    background-color: #000000;
+    margin-top: 10%;
+}
+
+.littleBig {
+    font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+h4 {
+    color: #ff2727;
+}

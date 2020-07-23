@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="../../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+            <img src="../../Images/quizApp-quiz.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Quiz App
+            <a href="index.html" id="date">
+                <button type="button" class="btn btn-outline-light">Give up</button>
+            </a>
+        </a>
+    </nav>
+    <br><br>
+
+    <h1 class="makeBig2">JavaScript Quiz</h1>
+
+    <h4 id="warning" class="be-safe">WARNING: Do not open Google for help.</h4>
+
+    <div id="container" class="container">
+        <span id="timer" class="timer"> 05:00</span> <br/>
+
+        <div id="question" class="question"></div> <br/>
+
+        <label class="option"><input type="radio" name="option" value="1" /><span id="option1"></span></label> <br/>
+
+        <label class="option"><input type="radio" name="option" value="2" /><span id="option2"></span></label> <br/>
+
+        <label class="option"><input type="radio" name="option" value="3" /><span id="option3"></span></label> <br/>
+
+        <label class="option"><input type="radio" name="option" value="4" /><span id="option4"></span></label> <br/>
+
+        <!-- <button id="button_box" class="nxt-btn btn btn-outline-primary" onclick="loadNxtQuestion();"><strong>Next</strong></button> -->
+
+    </div>
+    <div class="container">
+        <button id="button_box" type="button" class="btn btn-outline-success nxt-btn" style="display: block !important;" onclick="loadNxtQuestion();">Next</button>
+    </div>
+    <div id="result" class="container result" style="display: none !important;"></div>
+
+    <h3 id="marks" style="display: none;"></h3>
+
+    <h4 id="timeout" style="display: none;"></h4>
+    <br><br>
+
+
+    <!-- <button id="result2" class="container result" style="display: none;" onclick=startAgain()>Start Again</button> -->
+
+    <a href="#" id="result2" onclick="startAgain()" class="btn btn-primary btn-lg active container result" style="display: none !important;" role="button" aria-pressed="true">Start Again</a>
+    <a href="index.html" id="result3" class="btn btn-danger btn-lg active container result" style="display: none !important;" role="button" aria-pressed="true">Finish</a>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

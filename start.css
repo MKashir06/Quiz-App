@@ -1,0 +1,150 @@
+body {
+    background-image: url("../../Images/quizApp-question.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+.be-safe {
+    font-size: 90%;
+}
+
+.timer {
+    font-size: 30px;
+}
+
+.question {
+    font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+h4 {
+    color: #ff2727;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    float: left;
+    height: 35px;
+    width: 35px;
+    padding: -1px 0px;
+    border-radius: 50px;
+}
+
+#date {
+    color: #ffffff;
+    background-color: transparent;
+    float: right;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#date2 {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    float: right;
+    font-size: 16px;
+    text-indent: -20px;
+    cursor: default;
+}
+
+li {
+    display: inline;
+}
+
+.collapse {
+    display: none;
+}
+
+#container {
+    border: 5px solid #f7b740;
+    width: 80%;
+    text-align: center;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+i {
+    color: #8e0606;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+b {
+    color: #ccf74e;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    margin: 4px;
+    padding: 8px;
+    background-color: transparent;
+    color: #ffffff;
+    width: calc(50% - 8px);
+    min-width: 100px;
+    cursor: pointer;
+    text-align: left;
+}
+
+label:hover {
+    background: #f7b740;
+    color: #000000;
+}
+
+#question input[type=radio] {
+    display: none;
+}
+
+input[type=radio]:checked+label {
+    background: #ce8301;
+    color: #ececec;
+}
+
+#result {
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    color: #58b329;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.result {
+    display: inline !important;
+}
+
+.btn {
+    display: block;
+}
+
+.btn-outline-success {
+    color: #ffffff !important;
+    float: right !important;
+}
+
+span {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+}
+
+#timeout {
+    color: #a90000;
+    font-weight: bold;
+}
